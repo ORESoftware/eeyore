@@ -1,0 +1,96 @@
+
+
+ => Suman watcher => file changed:
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+
+
+ => the following files apparently do not need transpilation and will be run directly => 
+
+
+
+ => file(s) transpiled successfully =>
+
+ => Suman watcher => test will now execute.
+
+
+ => Node.js version: v6.7.0
+ => Suman v1.1.5104 running...
+ => cwd: /Users/t_millal/WebstormProjects/oresoftware/eeyore
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js
+
+  Suman will attempt to execute test files with/within the following paths:  
+
+ 	 1 => "/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js"
+
+
+
+	  _   _ _  _  _   .. _/__   __/_
+	_\/_// / //_|/ / ..  / /_'_\ /  
+
+ 
+
+before
+before
+	 ✔  '(no description)' (1ms)
+	 ✔  '(no description)' (2ms)
+	 ✔  '(no description)' (1ms)
+	 ✔  '(no description)' (1ms)
+beforeEach hook should only run once
+beforeEach hook should only run once
+	 ✔  '(no description)' (< 1ms)
+	 ✔  '(no description)' (< 1ms)
+after
+after
+
+
+
+	.-------------------------------------------------------------.
+	|                     Suman Test Results                      |
+	|-------------------------------------------------------------|
+	|           Metric           |      Value      |     Notes    |
+	|----------------------------|-----------------|--------------|
+	| Root Suite Title           | /Users/t_mil... |              |
+	| Total Num. of Suites       |               2 |              |
+	| Suites skipped             |               0 |              |
+	| Tests skipped              |               0 |              |
+	| Tests stubbed              |               0 |              |
+	| Tests passed               |               3 |              |
+	| Tests failed               |               0 |              |
+	| Tests total                |               3 |              |
+	| Passing rate               |         100.00% |              |
+	| Total time millis (delta)  |              32 |              |
+	| Total time minutes (delta) |          0.0005 |              |
+	'-------------------------------------------------------------'
+
+
+
+
+
+	.-------------------------------------------------------------.
+	|                     Suman Test Results                      |
+	|-------------------------------------------------------------|
+	|           Metric           |      Value      |     Notes    |
+	|----------------------------|-----------------|--------------|
+	| Root Suite Title           | /Users/t_mil... |              |
+	| Total Num. of Suites       |               2 |              |
+	| Suites skipped             |               0 |              |
+	| Tests skipped              |               0 |              |
+	| Tests stubbed              |               0 |              |
+	| Tests passed               |               3 |              |
+	| Tests failed               |               0 |              |
+	| Tests total                |               3 |              |
+	| Passing rate               |         100.00% |              |
+	| Total time millis (delta)  |              25 |              |
+	| Total time minutes (delta) |          0.0004 |              |
+	'-------------------------------------------------------------'
+
+
+
+
+ => Suman is exiting with code 0   
+
