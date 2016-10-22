@@ -1,31 +1,26 @@
 
 
  => Suman watcher => file changed:
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 
 
  => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 
 
  => file(s) transpiled successfully =>
 
  => Suman watcher => test will now execute.
 
-
  => Node.js version: v6.7.0
- => Suman v1.1.5104 running...
+ => Suman v1.1.5105 running...
  => cwd: /Users/t_millal/WebstormProjects/oresoftware/eeyore
 
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
   Suman will attempt to execute test files with/within the following paths:  
 
- 	 1 => "/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js"
+ 	 1 => "/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js"
 
 
 
@@ -34,60 +29,113 @@
 
  
 
-before
-before
-	 ✔  '(no description)' (1ms)
-	 ✔  '(no description)' (2ms)
-	 ✔  '(no description)' (1ms)
-	 ✔  '(no description)' (1ms)
-beforeEach hook should only run once
-beforeEach hook should only run once
-	 ✔  '(no description)' (< 1ms)
-	 ✔  '(no description)' (< 1ms)
-after
-after
+timeout => a
+	 ✔  'one' (1000ms)
+	 ✔  'one' (1003ms)
+	 ✔  'one' (1004ms)
+	 ✔  'one' (1003ms)
+	 ✔  'two' (1002ms)
+	 ✔  'two' (1002ms)
+	 ✔  'two' (1005ms)
+	 ✔  'two' (1005ms)
+	 ✔  'three' (1006ms)
+	 ✔  'three' (1005ms)
+	 ✔  'three' (1005ms)
+	 ✔  'three' (1006ms)
+	 ✔  'four' (1001ms)
+	 ✔  'four' (1001ms)
+	 ✔  'four' (1004ms)
+	 ✔  'four' (1005ms)
+	 ✔  'five' (1006ms)
+	 ✔  'five' (1006ms)
+	 ✔  'five' (1006ms)
+	 ✔  'five' (1007ms)
 
 
 
-	.-------------------------------------------------------------.
-	|                     Suman Test Results                      |
-	|-------------------------------------------------------------|
-	|           Metric           |      Value      |     Notes    |
-	|----------------------------|-----------------|--------------|
-	| Root Suite Title           | /Users/t_mil... |              |
-	| Total Num. of Suites       |               2 |              |
-	| Suites skipped             |               0 |              |
-	| Tests skipped              |               0 |              |
-	| Tests stubbed              |               0 |              |
-	| Tests passed               |               3 |              |
-	| Tests failed               |               0 |              |
-	| Tests total                |               3 |              |
-	| Passing rate               |         100.00% |              |
-	| Total time millis (delta)  |              32 |              |
-	| Total time minutes (delta) |          0.0005 |              |
-	'-------------------------------------------------------------'
+	.----------------------------------------------------------.
+	|                    Suman Test Results                    |
+	|----------------------------------------------------------|
+	|           Metric           |     Value    |     Notes    |
+	|----------------------------|--------------|--------------|
+	| Root Suite Title           |            2 |              |
+	| Total Num. of Suites       |            1 |              |
+	| Suites skipped             |            0 |              |
+	| Tests skipped              |            0 |              |
+	| Tests stubbed              |            0 |              |
+	| Tests passed               |            5 |              |
+	| Tests failed               |            0 |              |
+	| Tests total                |            5 |              |
+	| Passing rate               |      100.00% |              |
+	| Total time millis (delta)  |         5176 |              |
+	| Total time minutes (delta) |       0.0863 |              |
+	'----------------------------------------------------------'
 
 
 
 
 
-	.-------------------------------------------------------------.
-	|                     Suman Test Results                      |
-	|-------------------------------------------------------------|
-	|           Metric           |      Value      |     Notes    |
-	|----------------------------|-----------------|--------------|
-	| Root Suite Title           | /Users/t_mil... |              |
-	| Total Num. of Suites       |               2 |              |
-	| Suites skipped             |               0 |              |
-	| Tests skipped              |               0 |              |
-	| Tests stubbed              |               0 |              |
-	| Tests passed               |               3 |              |
-	| Tests failed               |               0 |              |
-	| Tests total                |               3 |              |
-	| Passing rate               |         100.00% |              |
-	| Total time millis (delta)  |              25 |              |
-	| Total time minutes (delta) |          0.0004 |              |
-	'-------------------------------------------------------------'
+	.----------------------------------------------------------.
+	|                    Suman Test Results                    |
+	|----------------------------------------------------------|
+	|           Metric           |     Value    |     Notes    |
+	|----------------------------|--------------|--------------|
+	| Root Suite Title           |            4 |              |
+	| Total Num. of Suites       |            1 |              |
+	| Suites skipped             |            0 |              |
+	| Tests skipped              |            0 |              |
+	| Tests stubbed              |            0 |              |
+	| Tests passed               |            5 |              |
+	| Tests failed               |            0 |              |
+	| Tests total                |            5 |              |
+	| Passing rate               |      100.00% |              |
+	| Total time millis (delta)  |         5178 |              |
+	| Total time minutes (delta) |       0.0863 |              |
+	'----------------------------------------------------------'
+
+
+
+
+
+	.----------------------------------------------------------.
+	|                    Suman Test Results                    |
+	|----------------------------------------------------------|
+	|           Metric           |     Value    |     Notes    |
+	|----------------------------|--------------|--------------|
+	| Root Suite Title           |            3 |              |
+	| Total Num. of Suites       |            1 |              |
+	| Suites skipped             |            0 |              |
+	| Tests skipped              |            0 |              |
+	| Tests stubbed              |            0 |              |
+	| Tests passed               |            5 |              |
+	| Tests failed               |            0 |              |
+	| Tests total                |            5 |              |
+	| Passing rate               |      100.00% |              |
+	| Total time millis (delta)  |         5340 |              |
+	| Total time minutes (delta) |       0.0890 |              |
+	'----------------------------------------------------------'
+
+
+
+
+
+	.----------------------------------------------------------.
+	|                    Suman Test Results                    |
+	|----------------------------------------------------------|
+	|           Metric           |     Value    |     Notes    |
+	|----------------------------|--------------|--------------|
+	| Root Suite Title           |            1 |              |
+	| Total Num. of Suites       |            1 |              |
+	| Suites skipped             |            0 |              |
+	| Tests skipped              |            0 |              |
+	| Tests stubbed              |            0 |              |
+	| Tests passed               |            5 |              |
+	| Tests failed               |            0 |              |
+	| Tests total                |            5 |              |
+	| Passing rate               |      100.00% |              |
+	| Total time millis (delta)  |         5350 |              |
+	| Total time minutes (delta) |       0.0892 |              |
+	'----------------------------------------------------------'
 
 
 

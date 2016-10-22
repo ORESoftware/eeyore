@@ -5,7 +5,7 @@ const Test = suman.init(module);
 Test.describe('SimpleTest', {}, function (assert, fs, http, os) {
 
 
-    ////
+    //////
 
     // this is much better
     this.beforeEach(t => {

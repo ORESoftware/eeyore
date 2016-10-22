@@ -24,6 +24,12 @@ module.exports = data => {  //load async deps for any of your suman tests
             }
         },
 
+        'timeout': function (cb) {
+
+            setTimeout(cb.bind(null, null, 'a'), 300);
+
+        },
+
         //synchronous dependency acquisition
         'request': function () {
             return {'dummy': 'val'};

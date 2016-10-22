@@ -5,11 +5,11 @@
 
 
 
- ### Suman start run indiv. @Fri Oct 21 2016 17:42:12 GMT-0700 (PDT) ###
+ ### Suman start run indiv. @Fri Oct 21 2016 20:19:26 GMT-0700 (PDT) ###
 
- ### Filename: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js
+ ### Filename: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
- ### Command = ["/Users/t_millal/.nvm/versions/node/v6.7.0/bin/node","/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js"]
+ ### Command = ["/Users/t_millal/.nvm/versions/node/v6.7.0/bin/node","/Users/t_millal/WebstormProjects/oresoftware/suman-server/server/bin/suman-watch-worker.js","/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js"]
 
 
 

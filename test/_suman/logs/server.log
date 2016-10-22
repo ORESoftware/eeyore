@@ -1,6 +1,6 @@
 
 
- => Suman server started by user on Fri Oct 21 2016 17:35:17 GMT-0700 (PDT)
+ => Suman server started by user on Fri Oct 21 2016 19:48:01 GMT-0700 (PDT)
 
 		      :::::::: :::    :::  :::   :::      :::    ::::    ::: 
 		    :+:    :+::+:    :+: :+:+: :+:+:   :+: :+:  :+:+:   :+:  
@@ -33,11 +33,11 @@ watcherOutputLogPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/_
 
  Client connected. 
 
-Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477096517804'
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477104481029'
     at Error (native)
-Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477096517804'
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477104481029'
     at Error (native)
-[0mPOST /results/make/new [31m500 [0m18.616 ms - 127[0m
+[0mPOST /results/make/new [31m500 [0m36.183 ms - 127[0m
 
 
   => Suman server => Suman watch process => Initial scan complete. Ready for changes
@@ -76,601 +76,6 @@ Client disconnected.
 
 Client disconnected.
 
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js has been changed
-{ transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' } ] 
-
-
-
- => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
-     execute: true } }
-
- => Suman watcher => test will now execute.
-
-
-All active poolio workers killed, pool stats: { available: 3, all: 3 }
-
- Client connected. 
-
-Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477096533549'
-    at Error (native)
-Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477096533549'
-    at Error (native)
-[0mPOST /results/make/new [31m500 [0m2.568 ms - 127[0m
-
-Client disconnected.
-
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js has been changed
-{ transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' } ] 
-
-
-
- => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
-     execute: true } }
-
- => Suman watcher => test will now execute.
-
-
-All active poolio workers killed, pool stats: { available: 3, all: 3 }
-
- Client connected. 
-
-created dir at /Users/t_millal/suman/test_results/1477096543673
-[0mPOST /results/make/new [32m200 [0m1.783 ms - 85[0m
-
-Client disconnected.
-
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js has been changed
-{ transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' } ] 
-
-
-
- => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
-     execute: true } }
-
- => Suman watcher => test will now execute.
-
-
-All active poolio workers killed, pool stats: { available: 3, all: 3 }
-
- Client connected. 
-
-Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477096551606'
-    at Error (native)
-Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477096551606'
-    at Error (native)
-[0mPOST /results/make/new [31m500 [0m1.923 ms - 127[0m
-
-Client disconnected.
-
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js has been changed
-{ transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' } ] 
-
-
-
- => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
-     execute: true } }
-
- => Suman watcher => test will now execute.
-
-
-All active poolio workers killed, pool stats: { available: 3, all: 3 }
-
- Client connected. 
-
-created dir at /Users/t_millal/suman/test_results/1477096555072
-[0mPOST /results/make/new [32m200 [0m1.696 ms - 85[0m
-
-Client disconnected.
-
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js has been changed
-{ transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' } ] 
-
-
-
- => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
-     execute: true } }
-
- => Suman watcher => test will now execute.
-
-
-All active poolio workers killed, pool stats: { available: 3, all: 3 }
-
- Client connected. 
-
-Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477096557842'
-    at Error (native)
-Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477096557842'
-    at Error (native)
-[0mPOST /results/make/new [31m500 [0m1.787 ms - 127[0m
-
-Client disconnected.
-
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js has been changed
-{ transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' } ] 
-
-
-
- => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
- => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js
-pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
-     execute: true } }
-
- => Suman watcher => test will now execute.
-
-
-All active poolio workers killed, pool stats: { available: 3, all: 3 }
-
- Client connected. 
-
-created dir at /Users/t_millal/suman/test_results/1477096560809
-[0mPOST /results/make/new [32m200 [0m1.308 ms - 85[0m
-
-Client disconnected.
-
 File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js has been changed
 { transpile: true,
   testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
@@ -680,10 +85,6 @@ File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.t
 
  => the following files will first be transpiled/copied => 
 /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
 
   => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js
 
@@ -728,8 +129,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -763,8 +163,11 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096598221
-[0mPOST /results/make/new [32m200 [0m0.903 ms - 85[0m
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477104649053'
+    at Error (native)
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477104649053'
+    at Error (native)
+[0mPOST /results/make/new [31m500 [0m1.610 ms - 127[0m
 
 Client disconnected.
 
@@ -778,10 +181,6 @@ File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.t
 
  => the following files will first be transpiled/copied => 
 /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
 
   => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js
 
@@ -827,8 +226,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -862,107 +260,8 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096609008
-[0mPOST /results/make/new [32m200 [0m1.147 ms - 85[0m
-
-Client disconnected.
-
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js has been changed
-{ transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js
-
-
- => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' } ] 
-
-
-
- => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' }
- => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js
-pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
-  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
-   { transpile: true,
-     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
-     execute: true } }
-
- => Suman watcher => test will now execute.
-
-
-All active poolio workers killed, pool stats: { available: 3, all: 3 }
-
- Client connected. 
-
-created dir at /Users/t_millal/suman/test_results/1477096626263
-[0mPOST /results/make/new [32m200 [0m0.706 ms - 85[0m
+created dir at /Users/t_millal/suman/test_results/1477104657145
+[0mPOST /results/make/new [32m200 [0m1.612 ms - 85[0m
 
 Client disconnected.
 
@@ -975,10 +274,6 @@ File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-se
 
  => the following files will first be transpiled/copied => 
 /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
 
   => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
@@ -1023,8 +318,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1059,43 +353,40 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096642789
-[0mPOST /results/make/new [32m200 [0m0.752 ms - 85[0m
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477104726869'
+    at Error (native)
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477104726869'
+    at Error (native)
+[0mPOST /results/make/new [31m500 [0m1.236 ms - 127[0m
 
 Client disconnected.
 
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js has been changed
 { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+  execute: true }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js
 
 
  => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js
 
 
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' } ] 
 
 
 
  => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' }
  => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
-  execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+  execute: true }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js
 pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
@@ -1123,8 +414,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1146,7 +436,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
@@ -1159,8 +450,397 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096654545
-[0mPOST /results/make/new [32m200 [0m0.728 ms - 85[0m
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477104758423'
+    at Error (native)
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477104758423'
+    at Error (native)
+[0mPOST /results/make/new [31m500 [0m1.760 ms - 127[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+  execute: true }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+  execute: true }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+created dir at /Users/t_millal/suman/test_results/1477104780636
+[0mPOST /results/make/new [32m200 [0m1.107 ms - 85[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+created dir at /Users/t_millal/suman/test_results/1477104800772
+[0mPOST /results/make/new [32m200 [0m0.955 ms - 85[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+created dir at /Users/t_millal/suman/test_results/1477104853188
+[0mPOST /results/make/new [32m200 [0m0.691 ms - 85[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+created dir at /Users/t_millal/suman/test_results/1477104918168
+[0mPOST /results/make/new [32m200 [0m1.739 ms - 85[0m
 
 Client disconnected.
 
@@ -1174,10 +854,6 @@ File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-se
 
  => the following files will first be transpiled/copied => 
 /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
 
   => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
@@ -1203,7 +879,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
@@ -1223,8 +900,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1246,7 +922,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
@@ -1259,8 +936,8 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096681440
-[0mPOST /results/make/new [32m200 [0m1.644 ms - 85[0m
+created dir at /Users/t_millal/suman/test_results/1477105467021
+[0mPOST /results/make/new [32m200 [0m0.759 ms - 85[0m
 
 Client disconnected.
 
@@ -1274,10 +951,6 @@ File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-se
 
  => the following files will first be transpiled/copied => 
 /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
 
   => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
@@ -1303,7 +976,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
@@ -1323,8 +997,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1346,7 +1019,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
@@ -1359,11 +1033,696 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096711982
+created dir at /Users/t_millal/suman/test_results/1477105481108
+[0mPOST /results/make/new [32m200 [0m1.942 ms - 85[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477105494384'
+    at Error (native)
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477105494384'
+    at Error (native)
+[0mPOST /results/make/new [31m500 [0m0.808 ms - 127[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+created dir at /Users/t_millal/suman/test_results/1477105896998
+[0mPOST /results/make/new [32m200 [0m1.842 ms - 85[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+created dir at /Users/t_millal/suman/test_results/1477105915417
+[0mPOST /results/make/new [32m200 [0m0.604 ms - 85[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477105942029'
+    at Error (native)
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477105942029'
+    at Error (native)
+[0mPOST /results/make/new [31m500 [0m0.629 ms - 127[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+created dir at /Users/t_millal/suman/test_results/1477105969986
+[0mPOST /results/make/new [32m200 [0m1.124 ms - 85[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477105988865'
+    at Error (native)
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477105988865'
+    at Error (native)
+[0mPOST /results/make/new [31m500 [0m1.052 ms - 127[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+created dir at /Users/t_millal/suman/test_results/1477105999413
 [0mPOST /results/make/new [32m200 [0m0.546 ms - 85[0m
-
-Client disconnected.
-
 File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
 { transpile: true,
   testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
@@ -1374,10 +1733,6 @@ File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-se
 
  => the following files will first be transpiled/copied => 
 /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
-
-
- => the following files apparently do not need transpilation and will be run directly => 
-
 
   => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
@@ -1403,7 +1758,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
@@ -1423,8 +1779,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1446,7 +1801,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
@@ -1455,45 +1811,46 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
  => Suman watcher => test will now execute.
 
 
-All active poolio workers killed, pool stats: { available: 3, all: 3 }
+All active poolio workers killed, pool stats: { available: 2, all: 2 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096748054
-[0mPOST /results/make/new [32m200 [0m0.676 ms - 85[0m
+created dir at /Users/t_millal/suman/test_results/1477106005125
+[0mPOST /results/make/new [32m200 [0m0.786 ms - 85[0m
 
 Client disconnected.
 
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js has been changed
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
 { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-  execute: true }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 
 
  => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
 
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' } ] 
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
 
 
 
  => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
  => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-  execute: true }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
@@ -1501,7 +1858,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
@@ -1521,8 +1879,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1530,8 +1887,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
@@ -1545,7 +1901,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
@@ -1558,43 +1915,39 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096770643
-[0mPOST /results/make/new [32m200 [0m0.639 ms - 85[0m
+created dir at /Users/t_millal/suman/test_results/1477106134809
+[0mPOST /results/make/new [32m200 [0m0.740 ms - 85[0m
 
 Client disconnected.
 
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js has been changed
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
 { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
   execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 
 
  => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
 
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' } ] 
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
 
 
 
  => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
  => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
   execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
@@ -1602,7 +1955,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
@@ -1622,8 +1976,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1631,8 +1984,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
@@ -1646,7 +1998,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
@@ -1659,43 +2012,39 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096785852
-[0mPOST /results/make/new [32m200 [0m0.657 ms - 85[0m
+created dir at /Users/t_millal/suman/test_results/1477106152041
+[0mPOST /results/make/new [32m200 [0m0.837 ms - 85[0m
 
 Client disconnected.
 
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js has been changed
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
 { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
   execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 
 
  => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
 
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' } ] 
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
 
 
 
  => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
  => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
   execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
@@ -1703,7 +2052,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
@@ -1723,8 +2073,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1732,8 +2081,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
@@ -1747,7 +2095,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
@@ -1760,43 +2109,39 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096804041
-[0mPOST /results/make/new [32m200 [0m0.698 ms - 85[0m
+created dir at /Users/t_millal/suman/test_results/1477106176366
+[0mPOST /results/make/new [32m200 [0m0.689 ms - 85[0m
 
 Client disconnected.
 
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js has been changed
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
 { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
   execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 
 
  => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
 
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' } ] 
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
 
 
 
  => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
  => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
   execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
@@ -1804,7 +2149,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
@@ -1824,8 +2170,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1833,8 +2178,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
@@ -1848,7 +2192,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
@@ -1861,43 +2206,39 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096820800
-[0mPOST /results/make/new [32m200 [0m0.585 ms - 85[0m
+created dir at /Users/t_millal/suman/test_results/1477106219282
+[0mPOST /results/make/new [32m200 [0m1.033 ms - 85[0m
 
 Client disconnected.
 
-File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js has been changed
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
 { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
   execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
- =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 
 
  => the following files will first be transpiled/copied => 
-/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
 
 
- => the following files apparently do not need transpilation and will be run directly => 
-
-
-  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js
-
-
-  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' } ] 
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
 
 
 
  => file(s) transpiled successfully =>
- => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
  => Suman server going to add testTarget property to the following item: { transpile: true,
-  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
   execute: true,
-  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' }
-$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js' ]
-originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
 pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
@@ -1905,7 +2246,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
@@ -1925,8 +2267,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-2.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
@@ -1934,8 +2275,7 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
-     execute: true,
-     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-4.test.js' },
+     execute: true },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
@@ -1949,7 +2289,8 @@ pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src':
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
-     execute: true },
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
   '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
    { transpile: true,
      testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
@@ -1962,8 +2303,205 @@ All active poolio workers killed, pool stats: { available: 3, all: 3 }
 
  Client connected. 
 
-created dir at /Users/t_millal/suman/test_results/1477096903971
-[0mPOST /results/make/new [32m200 [0m0.697 ms - 85[0m
+created dir at /Users/t_millal/suman/test_results/1477106298949
+[0mPOST /results/make/new [32m200 [0m1.476 ms - 85[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477106311714'
+    at Error (native)
+Error: EEXIST: file already exists, mkdir '/Users/t_millal/suman/test_results/1477106311714'
+    at Error (native)
+[0mPOST /results/make/new [31m500 [0m0.626 ms - 127[0m
+
+Client disconnected.
+
+File /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js has been changed
+{ transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ =>  transpiling file => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+
+ => the following files will first be transpiled/copied => 
+/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+
+  => Test file will be transpiled to => /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js
+
+
+  => transpile results: [ { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+    targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' } ] 
+
+
+
+ => file(s) transpiled successfully =>
+ => Suman server item to be run after transpilation: { originalPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+ => Suman server going to add testTarget property to the following item: { transpile: true,
+  testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+  execute: true,
+  targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' }
+$tests => [ '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js' ]
+originalTestPath: /Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js
+pathHash: { '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/example.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/example.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-1.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-2.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-3.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/examples/example-4.test.js',
+     execute: true },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/ioc/one.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/ioc/one.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-1.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-1.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-2.test.js',
+     execute: true,
+     targetPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/par-vs-series/par-vs-series-2.test.js' },
+  '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js': 
+   { transpile: true,
+     testPath: '/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/test-src/par-vs-series/par-vs-series-3.test.js',
+     execute: true } }
+
+ => Suman watcher => test will now execute.
+
+
+All active poolio workers killed, pool stats: { available: 3, all: 3 }
+
+ Client connected. 
+
+created dir at /Users/t_millal/suman/test_results/1477106365992
+[0mPOST /results/make/new [32m200 [0m0.836 ms - 85[0m
 
 Client disconnected.
 

@@ -2,34 +2,10 @@
 
 ### Suman runner start ###
 
-Beginning of run at 1477072934624 = [Fri Oct 21 2016 11:02:14 GMT-0700 (PDT)]
+Beginning of run at 1477104449686 = [Fri Oct 21 2016 19:47:29 GMT-0700 (PDT)]
 Command issued from the following directory "/Users/t_millal/WebstormProjects/oresoftware/eeyore"
 Command = ["/Users/t_millal/.nvm/versions/node/v6.7.0/bin/node","/Users/t_millal/.nvm/versions/node/v6.7.0/bin/suman","-r"]
 
-
-[examples/example-2.test.js] 
-[examples/example-2.test.js] 
-[examples/example-2.test.js]  ### Suman end run ### 
-[examples/example-2.test.js] 
-[examples/example-2.test.js] 
-[examples/example-2.test.js] 
-[examples/example-2.test.js] 
-
-[examples/example-3.test.js] 
-[examples/example-3.test.js] 
-[examples/example-3.test.js]  ### Suman end run ### 
-[examples/example-3.test.js] 
-[examples/example-3.test.js] 
-[examples/example-3.test.js] 
-[examples/example-3.test.js] 
-
-[ioc/one.test.js] 
-[ioc/one.test.js] 
-[ioc/one.test.js]  ### Suman end run ### 
-[ioc/one.test.js] 
-[ioc/one.test.js] 
-[ioc/one.test.js] 
-[ioc/one.test.js] 
 
 [examples/example-4.test.js] 
 [examples/example-4.test.js] 
@@ -46,6 +22,30 @@ Command = ["/Users/t_millal/.nvm/versions/node/v6.7.0/bin/node","/Users/t_millal
 
 [examples/example-1.test.js] Warning: the following test callback was invoked twice by your code for the following test/hook => Check that Test.file is equiv. to module.filename
 
+[examples/example-3.test.js] 
+[examples/example-3.test.js] 
+[examples/example-3.test.js]  ### Suman end run ### 
+[examples/example-3.test.js] 
+[examples/example-3.test.js] 
+[examples/example-3.test.js] 
+[examples/example-3.test.js] 
+
+[examples/example-2.test.js] 
+[examples/example-2.test.js] 
+[examples/example-2.test.js]  ### Suman end run ### 
+[examples/example-2.test.js] 
+[examples/example-2.test.js] 
+[examples/example-2.test.js] 
+[examples/example-2.test.js] 
+
+[ioc/one.test.js] 
+[ioc/one.test.js] 
+[ioc/one.test.js]  ### Suman end run ### 
+[ioc/one.test.js] 
+[ioc/one.test.js] 
+[ioc/one.test.js] 
+[ioc/one.test.js] 
+
 [examples/example-1.test.js] 
 [examples/example-1.test.js] 
 [examples/example-1.test.js]  ### Suman end run ### 
@@ -53,3 +53,46 @@ Command = ["/Users/t_millal/.nvm/versions/node/v6.7.0/bin/node","/Users/t_millal
 [examples/example-1.test.js] 
 [examples/example-1.test.js] 
 [examples/example-1.test.js] 
+
+[par-vs-series/par-vs-series-2.test.js] 
+[par-vs-series/par-vs-series-2.test.js] 
+[par-vs-series/par-vs-series-2.test.js]  ### Suman end run ### 
+[par-vs-series/par-vs-series-2.test.js] 
+[par-vs-series/par-vs-series-2.test.js] 
+[par-vs-series/par-vs-series-2.test.js] 
+[par-vs-series/par-vs-series-2.test.js] 
+
+[par-vs-series/par-vs-series-1.test.js] 
+[par-vs-series/par-vs-series-1.test.js] 
+[par-vs-series/par-vs-series-1.test.js]  ### Suman end run ### 
+[par-vs-series/par-vs-series-1.test.js] 
+[par-vs-series/par-vs-series-1.test.js] 
+[par-vs-series/par-vs-series-1.test.js] 
+[par-vs-series/par-vs-series-1.test.js] 
+
+[example.test.js] 
+[example.test.js] 
+[example.test.js]  ### Suman end run ### 
+[example.test.js] 
+[example.test.js] 
+[example.test.js] 
+[example.test.js] 
+
+[par-vs-series/par-vs-series-3.test.js] 
+[par-vs-series/par-vs-series-3.test.js] 
+[par-vs-series/par-vs-series-3.test.js]  ### Suman end run ### 
+[par-vs-series/par-vs-series-3.test.js] 
+[par-vs-series/par-vs-series-3.test.js] 
+[par-vs-series/par-vs-series-3.test.js] 
+[par-vs-series/par-vs-series-3.test.js] 
+
+
+### Suman runner end ###
+
+
+
+
+
+
+
+

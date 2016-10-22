@@ -13,7 +13,7 @@ Test.describe(__filename, function (assert, child_process) {
         assert(true);
     });
 
-    // throw new Error('jump');
+    // throw new Error('jump');//
 
     this.it(t => {
         assert(true);

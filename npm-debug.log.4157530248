@@ -20,32 +20,32 @@
 8 silly mapToRegistry uri https://registry.npmjs.org/suman
 9 verbose request uri https://registry.npmjs.org/suman
 10 verbose request no auth needed
-11 info attempt registry request try #1 at 5:40:04 PM
+11 info attempt registry request try #1 at 7:50:49 PM
 12 verbose request using bearer token for auth
-13 verbose request id 6ddae10ea2876135
-14 verbose etag "47XACKQ88E99H5OR73K1JD9QT"
+13 verbose request id e6775af3e8e311a1
+14 verbose etag "CGAP6YY77U1JB7BZ1Y80OL725"
 15 http request GET https://registry.npmjs.org/suman
 16 http 304 https://registry.npmjs.org/suman
 17 verbose headers { 'cache-control': 'max-age=300',
 17 verbose headers   'accept-ranges': 'bytes',
-17 verbose headers   date: 'Sat, 22 Oct 2016 00:40:04 GMT',
+17 verbose headers   date: 'Sat, 22 Oct 2016 02:50:49 GMT',
 17 verbose headers   via: '1.1 varnish',
 17 verbose headers   connection: 'keep-alive',
-17 verbose headers   'x-served-by': 'cache-sjc3629-SJC',
+17 verbose headers   'x-served-by': 'cache-sjc3131-SJC',
 17 verbose headers   'x-cache': 'MISS',
 17 verbose headers   'x-cache-hits': '0',
-17 verbose headers   'x-timer': 'S1477096804.520679,VS0,VE345',
+17 verbose headers   'x-timer': 'S1477104649.705825,VS0,VE129',
 17 verbose headers   vary: 'Accept-Encoding' }
 18 silly get cb [ 304,
 18 silly get   { 'cache-control': 'max-age=300',
 18 silly get     'accept-ranges': 'bytes',
-18 silly get     date: 'Sat, 22 Oct 2016 00:40:04 GMT',
+18 silly get     date: 'Sat, 22 Oct 2016 02:50:49 GMT',
 18 silly get     via: '1.1 varnish',
 18 silly get     connection: 'keep-alive',
-18 silly get     'x-served-by': 'cache-sjc3629-SJC',
+18 silly get     'x-served-by': 'cache-sjc3131-SJC',
 18 silly get     'x-cache': 'MISS',
 18 silly get     'x-cache-hits': '0',
-18 silly get     'x-timer': 'S1477096804.520679,VS0,VE345',
+18 silly get     'x-timer': 'S1477104649.705825,VS0,VE129',
 18 silly get     vary: 'Accept-Encoding' } ]
 19 verbose etag https://registry.npmjs.org/suman from cache
 20 verbose get saving suman to /Users/t_millal/.npm/registry.npmjs.org/suman/.cache.json
