@@ -2,10 +2,18 @@
 
 ### Suman runner start ###
 
-Beginning of run at 1477104449686 = [Fri Oct 21 2016 19:47:29 GMT-0700 (PDT)]
+Beginning of run at 1478143993675 = [Wed Nov 02 2016 20:33:13 GMT-0700 (PDT)]
 Command issued from the following directory "/Users/t_millal/WebstormProjects/oresoftware/eeyore"
 Command = ["/Users/t_millal/.nvm/versions/node/v6.7.0/bin/node","/Users/t_millal/.nvm/versions/node/v6.7.0/bin/suman","-r"]
 
+
+[examples/example-2.test.js] 
+[examples/example-2.test.js] 
+[examples/example-2.test.js]  ### Suman end run ### 
+[examples/example-2.test.js] 
+[examples/example-2.test.js] 
+[examples/example-2.test.js] 
+[examples/example-2.test.js] 
 
 [examples/example-4.test.js] 
 [examples/example-4.test.js] 
@@ -14,6 +22,14 @@ Command = ["/Users/t_millal/.nvm/versions/node/v6.7.0/bin/node","/Users/t_millal
 [examples/example-4.test.js] 
 [examples/example-4.test.js] 
 [examples/example-4.test.js] 
+
+[ioc/one.test.js] 
+[ioc/one.test.js] 
+[ioc/one.test.js]  ### Suman end run ### 
+[ioc/one.test.js] 
+[ioc/one.test.js] 
+[ioc/one.test.js] 
+[ioc/one.test.js] 
 
 [examples/example-1.test.js] TypeError: t.done is not a function
 [examples/example-1.test.js]     at Timeout._onTimeout (/Users/t_millal/WebstormProjects/oresoftware/eeyore/test/TEST-TARGET/examples/example-1.test.js:33:15)
@@ -29,22 +45,6 @@ Command = ["/Users/t_millal/.nvm/versions/node/v6.7.0/bin/node","/Users/t_millal
 [examples/example-3.test.js] 
 [examples/example-3.test.js] 
 [examples/example-3.test.js] 
-
-[examples/example-2.test.js] 
-[examples/example-2.test.js] 
-[examples/example-2.test.js]  ### Suman end run ### 
-[examples/example-2.test.js] 
-[examples/example-2.test.js] 
-[examples/example-2.test.js] 
-[examples/example-2.test.js] 
-
-[ioc/one.test.js] 
-[ioc/one.test.js] 
-[ioc/one.test.js]  ### Suman end run ### 
-[ioc/one.test.js] 
-[ioc/one.test.js] 
-[ioc/one.test.js] 
-[ioc/one.test.js] 
 
 [examples/example-1.test.js] 
 [examples/example-1.test.js] 
