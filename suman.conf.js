@@ -10,6 +10,7 @@ const path = require('path');
 const numOfCPUs = os.cpus().length || 1;
 
 
+//
 module.exports = Object.freeze({
 
     matchAny: [/\.test\.js$/],                              //recommended =>  match: [/.test.js$/],
